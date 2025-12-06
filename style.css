@@ -1,0 +1,103 @@
+.custom-bg-color {
+    background-color:#f8f8eb;
+}
+.navbar-custom {
+    background-color: #0EA5E9 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+body {
+    background-color:#F8FAFC;
+    color: #334155;
+}
+
+.navbar-custom .nav-link:hover {
+    opacity: 0.85;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+}
+
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+.profile-card {
+    background-color: #F8FAFC;
+}
+
+.border-primary-custom {
+    border-color: #0EA5E9 !important;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #0EA5E9;
+}
+
+.icon-box {
+    width: 32px;
+    height: 32px;
+    background-color: #1E293B;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.badge-custom {
+    background-color: #1E293B;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+}
+
+.badge-custom:hover {
+    background-color: #0EA5E9;
+    cursor: pointer;
+}
+
+.badge1-custom {
+    background-color: #1E293B;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.formcontrolmess{
+    width: 500px;
+    height: 300px;
+}
+.badge1-custom:hover {
+    background-color: #0EA5E9;
+    cursor: pointer;
+}
